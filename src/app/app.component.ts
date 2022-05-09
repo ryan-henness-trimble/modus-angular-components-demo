@@ -23,7 +23,7 @@ import { Component } from '@angular/core';
           </div>
         </div>
       </modus-card>
-      <modus-button class="button" [color]="'primary'" [disabled]="false" (buttonClick)="handleButtonClick()">
+      <modus-button [buttonStyle]="'outline'" class="button" [color]="'primary'" [disabled]="false" (buttonClick)="handleButtonClick()">
         {{mode === 'view' ? 'Edit Card' : 'Finish'}}
       </modus-button>
     </div>
